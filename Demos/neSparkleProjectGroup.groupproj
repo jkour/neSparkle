@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{29391C6C-C011-4784-A08A-6161D75792FA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DelphiSparkleExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\SourceCode\Package\neSparklePackage.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DelphiSparkleExample">
+        <MSBuild Projects="DelphiSparkleExample.dproj"/>
+    </Target>
+    <Target Name="DelphiSparkleExample:Clean">
+        <MSBuild Projects="DelphiSparkleExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiSparkleExample:Make">
+        <MSBuild Projects="DelphiSparkleExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="neSparklePackage">
+        <MSBuild Projects="..\SourceCode\Package\neSparklePackage.dproj"/>
+    </Target>
+    <Target Name="neSparklePackage:Clean">
+        <MSBuild Projects="..\SourceCode\Package\neSparklePackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="neSparklePackage:Make">
+        <MSBuild Projects="..\SourceCode\Package\neSparklePackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DelphiSparkleExample;neSparklePackage"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DelphiSparkleExample:Clean;neSparklePackage:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DelphiSparkleExample:Make;neSparklePackage:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
