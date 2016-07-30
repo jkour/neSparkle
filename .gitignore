@@ -4,3 +4,17 @@ SourceCode/Package/neSparklePackage.dproj.local
 SourceCode/Package/neSparklePackage.identcache
 SourceCode/Package/neSparklePackage.res
 SourceCode/Package/neSparklePackage.stat
+Demos/DelphiSparkleExample.dproj.local
+Demos/DelphiSparkleExample.identcache
+Demos/DelphiSparkleExample.stat
+Demos/neSparkleProjectGroup.dsk
+Demos/neSparkleProjectGroup.groupproj.local
+Demos/neSparkleProjectGroup.~dsk
+Demos/neSparkleProjectGroup_prjgroup.tvsconfig
+Demos/Win64/Debug/DelphiSparkleExample.exe
+Demos/Win64/Debug/DelphiSparkleExample.rsm
+Demos/Win64/Debug/MainUnit.dcu
+Demos/Win64/Debug/neSparkle.dcu
+Demos/Win32/Debug/DelphiSparkleExample.exe
+Demos/Win32/Debug/MainUnit.dcu
+Demos/Win32/Debug/neSparkle.dcu
