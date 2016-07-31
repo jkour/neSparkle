@@ -11,6 +11,8 @@ neSparkleComponent is based on the excellent work of Václav Slavík and his pro
 
 2. Install the component using the installer. The installer will update the search paths of the IDE
 
+**Note:** In your applications you need to use the WinSparkle.DLL file, which can be found in the "Libraries" folder. The DLL files are Release builds (Visual Studio 2015)
+
 
 # Platforms
 This is a FireMonkey component. For now it implements access to Win32 and Win64. The intention is to write bindings for OSX, too.
@@ -19,6 +21,8 @@ This is a FireMonkey component. For now it implements access to Win32 and Win64.
 #Documentation
 There is documentation about the classes, the methods and properties. Please check the "Documentation" folder.
 
+#Special Thanks
+Many thanks to Ondrej Kelle and David Heffernan who helped me understand a few details about DLLs and how to load them in Delphi.
 
 #Bugs, Suggestions, Comments and General Contact
 I hope you find the component useful. If you have any comments or ideas, have spotted any bugs or have any suggestions about changes to the code use the "Issues" tab on github or drop me an email at j_kour@hotmail.com
