@@ -1,5 +1,5 @@
 # neSparkleComponent
-neSparkleComponent is a FireMonkey component for Delphi. It adds update functionality similar to Sparkle for OSX. The componet is a wrapper for the WinSparkle framework.
+neSparkleComponent is a Delphi component for Delphi. It adds update functionality similar to Sparkle for OSX. The component is a wrapper for the WinSparkle framework.
 
 
 #Foundations
@@ -11,11 +11,11 @@ neSparkleComponent is based on the excellent work of Václav Slavík and his pro
 
 2. Install the component using the installer. The installer will update the search paths of the IDE
 
-**Note:** In your applications you need to use the WinSparkle.DLL file, which can be found in the "Libraries" folder. The DLL files are Release builds (Visual Studio 2015)
+**Note:** In your applications you need to use the WinSparkle.DLL file, which can be found in the "Libraries" folder. The DLL files are Release builds (Visual Studio 2015) and the current version is **0.5.3**
 
 
 # Platforms
-This is a FireMonkey component. For now it implements access to Win32 and Win64. The intention is to write bindings for OSX, too.
+This is a Windows component. The intention is to write bindings for OSX, too.
 
 
 #Documentation

@@ -28,8 +28,7 @@ package neSparklePackage;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl,
-  fmx;
+  rtl;
 
 contains
   neSparkle in 'neSparkle.pas';

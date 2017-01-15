@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "neSparkleComponent"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.1.0"
 #define MyAppPublisher "NusEnvision"
 #define MyAppURL "https://github.com/jkour/neSparkleComponent.git"
 #define MyPackageName "neSparklePackage.bpl"
@@ -31,7 +31,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={commondocs}\NusEnvision\{#MyAppName}
 DefaultGroupName=NusEnvision\neSparkleComponent
 DisableProgramGroupPage=yes
-OutputBaseFilename=neSparkleComponent-1.0.0-setup
+OutputBaseFilename=neSparkleComponent-1.1.0-setup
 Compression=lzma
 SolidCompression=yes
 ShowLanguageDialog=no
@@ -46,8 +46,6 @@ Source: "\\Mac\ProductionHD\NusEnvision\Components\Delphi\neSparkleComponent\Dev
 Source: "\\Mac\ProductionHD\NusEnvision\Components\Delphi\neSparkleComponent\Development\SourceCode\Package\neSparkle.pas"; DestDir: "{app}\SourceCode\Package"; Flags: ignoreversion
 Source: "\\Mac\ProductionHD\NusEnvision\Components\Delphi\neSparkleComponent\Development\SourceCode\Package\neSparklePackage.dpk"; DestDir: "{app}\SourceCode\Package"; Flags: ignoreversion
 Source: "\\Mac\ProductionHD\NusEnvision\Components\Delphi\neSparkleComponent\Development\SourceCode\Package\neSparklePackage.dproj"; DestDir: "{app}\SourceCode\Package"; Flags: ignoreversion
-Source: "..\Libraries\Win32\WinSparkle.dll"; DestDir: "{app}\Libraries\Win32\"; Flags: ignoreversion
-Source: "..\Libraries\Win64\WinSparkle.dll"; DestDir: "{app}\Libraries\Win64\"; Flags: ignoreversion
 Source: "..\Demos\DelphiSparkleExample.dpr"; DestDir: "{app}\Demos\"; Flags: ignoreversion
 Source: "..\Demos\DelphiSparkleExample.dproj"; DestDir: "{app}\Demos\"; Flags: ignoreversion
 Source: "..\Demos\DelphiSparkleExample.res"; DestDir: "{app}\Demos\"; Flags: ignoreversion
@@ -57,6 +55,10 @@ Source: "..\Demos\neSparkleProjectGroup.groupproj"; DestDir: "{app}\Demos\"; Fla
 Source: "..\Demos\Win32\Debug\WinSparkle.dll"; DestDir: "{app}\Demos\Win32\Debug\"; Flags: ignoreversion
 Source: "..\Demos\Win64\Debug\WinSparkle.dll"; DestDir: "{app}\Demos\Win64\Debug\"; Flags: ignoreversion
 Source: "CompileSource.bat"; Flags: dontcopy
+Source: "..\Libraries\v.0.5.2\Win32\WinSparkle.dll"; DestDir: "{app}\Libraries\v.0.5.2\Win32\"; Flags: ignoreversion
+Source: "..\Libraries\v.0.5.2\Win64\WinSparkle.dll"; DestDir: "{app}\Libraries\v.0.5.2\Win64\"; Flags: ignoreversion
+Source: "..\Libraries\v.0.5.3\Win32\WinSparkle.dll"; DestDir: "{app}\Libraries\v.0.5.3\Win32\"; Flags: ignoreversion
+Source: "..\Libraries\v.0.5.3\Win64\WinSparkle.dll"; DestDir: "{app}\Libraries\v.0.5.3\Win64\"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
@@ -69,6 +71,23 @@ Name: "{app}\Demos\Win32\"
 Name: "{app}\Demos\Win32\Debug\"
 Name: "{app}\Demos\Win64\"
 Name: "{app}\Demos\Win64\Debug\"
+Name: "{app}\Libraries\"
+Name: "{app}\Libraries\v.0.5.2\"
+Name: "{app}\Libraries\v.0.5.2\Win32\"
+Name: "{app}\Libraries\v.0.5.2\Win64\"
+Name: "{app}\Libraries\v.0.5.3\"
+Name: "{app}\Libraries\v.0.5.3\Win32\"
+Name: "{app}\Libraries\v.0.5.3\Win64\"
+Name: "{app}\v.0.5.3\"
+Name: "{app}\v.0.5.3\Win32\"
+Name: "{app}\v.0.5.3\Win64\"
+Name: "{app}\Libraries\"
+Name: "{app}\Libraries\v.0.5.2\"
+Name: "{app}\Libraries\v.0.5.2\Win32\"
+Name: "{app}\Libraries\v.0.5.2\Win64\"
+Name: "{app}\Libraries\v.0.5.3\"
+Name: "{app}\Libraries\v.0.5.3\Win32\"
+Name: "{app}\Libraries\v.0.5.3\Win64\"
 
 [Code]
 const

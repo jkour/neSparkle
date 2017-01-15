@@ -45,14 +45,14 @@
 //***************************************************************
 
 
-{$REGION 'A Delphi wrapper for the WinSparkle project. This is a FireMonkey unit.'}
+{$REGION 'A Delphi wrapper for the WinSparkle project.'}
 /// <summary>
 ///   <para>
 ///     A Delphi wrapper for the <see href="https://winsparkle.org">
 ///     WinSparkle</see> project.
 ///   </para>
 ///   <para>
-///     This is a FireMonkey unit.
+///     This is a Windows Component.
 ///   </para>
 /// </summary>
 {$ENDREGION}
@@ -65,16 +65,27 @@ uses
 
 const
   WinSparkleLib = 'WinSparkle.dll';
-  WinSprkaleVersion = '0.5.2';
+  WinSprkaleVersion = '0.5.3';
 
   MajorVersion = '1';
-  MinorVersion = '0';
+  MinorVersion = '1';
   BugVersion = '0';
 
 //***************************************************************
 //
 // Version History
 //
+//
+// 1.1.0 - 15/01/2017 - (Win32, Win64)
+//
+// ** Improvement
+//
+//    * WinSparkle version: 0.5.3
+//
+// ** Bugs
+//
+//    * Remove conflict with VLC and FMX components.
+//      neSparkle is a Windows component now
 //
 // 1.0.0 - 29/07/2016 - (Win32, Win64)
 //
@@ -342,7 +353,7 @@ type
 implementation
 
 uses
-	Winapi.Windows, FMX.Dialogs, System.DateUtils;
+  System.DateUtils, Winapi.Windows;
 
 ////
 /// This variable and the DoProcedure(s) are used to trigger the
