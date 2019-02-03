@@ -68,13 +68,21 @@ const
   WinSparkleVersion = '0.6.0';
 
   MajorVersion = '1';
-  MinorVersion = '1';
+  MinorVersion = '2';
   BugVersion = '0';
 
 //***************************************************************
 //
 // Version History
 //
+//
+// 1.2.0 - 03/02/2018
+//
+// ** Improvement
+//
+//    * Manage DSA Certificates (Many Thanks to gliden)
+//    * WinSparkle version: 0.6.0
+//    * Clean up code
 //
 // 1.1.0 - 15/01/2017 - (Win32, Win64)
 //
