@@ -706,19 +706,20 @@ end;
 
 procedure TneSparkle.setDSAPublicPem(const Value: String);
 var
-  p: Pointer;
   tmpProc: function (pem: PAnsiChar): Integer; cdecl;
   res: Integer;
 begin
-  if not getDLLLoaded then Exit;
-
+  if not getDLLLoaded then
+    Exit;
   res := 0;
-  tmpProc:=GetProcAddress(fHandle, 'win_sparkle_set_dsa_pub_pem');
-  if Assigned(tmpProc) then res := tmpProc(PAnsiChar(AnsiString(value)));
+  @tmpProc:=GetProcAddress(fHandle, 'win_sparkle_set_dsa_pub_pem');
+  if Assigned(tmpProc) then
+    res := tmpProc(PAnsiChar(AnsiString(value)));
   if res = 1 then
   begin
     fDSAPublicPem := Value;
-  end else
+  end
+  else
   begin
     fDSAPublicPem := '';
   end;
