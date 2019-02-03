@@ -356,7 +356,7 @@ type
 implementation
 
 uses
-  System.DateUtils, Winapi.Windows;
+  System.DateUtils, Winapi.Windows, System.IOUtils;
 
 ////
 /// This variable and the DoProcedure(s) are used to trigger the
@@ -475,9 +475,15 @@ begin
 end;
 
 constructor TneSparkle.Create(const newPath: string);
+var
+  fullFilename: string;
 begin
-  fDLLPath:=newPath;
-  fHandle:=SafeLoadLibrary(fDLLPath+WinSparkleLib);
+  if Trim(newPath)='' then
+    fullFilename:=WinSparkleLib
+  else
+    fullFilename:=TPath.Combine(Trim(newPath), WinSparkleLib);
+  fDLLPath:=Trim(newPath);
+  fHandle:=SafeLoadLibrary(fullFilename);
 end;
 
 destructor TneSparkle.Destroy;

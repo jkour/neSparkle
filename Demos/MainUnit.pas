@@ -154,8 +154,16 @@ begin
 end;
 
 procedure TForm4.FormCreate(Sender: TObject);
+var
+  path: string;
 begin
-  mainWinSparkle:=TneSparkle.Create;
+{$IFDEF WIN32}
+  path:='..\..\..\Libraries\v.'+WinSparkleVersion+'\Win32';
+{$ENDIF}
+{$IFDEF WIN64}
+  path:='..\..\..\Libraries\v.'+WinSparkleVersion+'\Win64';
+{$ENDIF}
+  mainWinSparkle:=TneSparkle.Create(path);
   SetupGui;
   if mainWinSparkle.DLLLoaded then
   begin
