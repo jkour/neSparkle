@@ -3,7 +3,10 @@ program DelphiSparkleExample;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  MainUnit in 'MainUnit.pas'; {Form4}
+  MainUnit in 'MainUnit.pas' {Form4},
+  neSparkle in '..\SourceCode\Package\neSparkle.pas';
+
+{Form4}
 
 {$R *.res}
 

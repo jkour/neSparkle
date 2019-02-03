@@ -245,7 +245,6 @@ end;
 
 procedure TForm4.InitialiseSparkle;
 begin
-  mainWinSparkle.Init;
   mainWinSparkle.SetAppDetails('JK', 'Delphi WinSparkle', '1.2.0');
   mainWinSparkle.OnDidFindUpdate := UpdateFound;
   mainWinSparkle.OnError := UpdateError;
@@ -253,6 +252,7 @@ begin
   mainWinSparkle.OnDidNotFindUpdate := UpdateNotFound;
   mainWinSparkle.OnUpdateCancelled := UpdateCancelled;
   mainWinSparkle.OnCanShutDown := UpdateCanShutdown;
+  mainWinSparkle.Init;
 end;
 
 procedure TForm4.UpdateError;
