@@ -126,7 +126,7 @@ type
     fOnUpdateCancelled: TProc;
 
     fOnCanShutDown: TFunc<Boolean>;
-    fDsaPublicPem: String;
+    fDSAPublicPem: String;
 
     function getDLLLoaded: Boolean;
     procedure ExecuteSimpleProcedure(const procName: PWideChar);
@@ -158,7 +158,7 @@ type
     procedure SetOnDidNotFindUpdate (const newProc: TProc);
     procedure SetOnUpdateCancelled (const newProc: TProc);
     procedure SetOnCanShutDown (const newFunc: TFunc<Boolean>);
-    procedure SetDsaPublicPem(const Value: String);
+    procedure setDSAPublicPem(const Value: String);
 
   public
     constructor Create; overload;
@@ -313,7 +313,7 @@ type
     property RegistryPath: string read GetRegistryPath write SetRegistryPath;
     property UpdateCheckInterval: integer read GetUpdateCheckInterval
       write SetUpdateCheckInterval;
-    property DsaPublicPem: String read fDsaPublicPem write SetDsaPublicPem;
+    property DSAPublicPem: String read fDSAPublicPem write setDSAPublicPem;
     {$REGION 'This event is triggered when WinSparkle gets an error while it is attempting to check for updates.'}
     /// <summary>
     ///   This event is triggered when WinSparkle gets an error while it is
@@ -698,7 +698,7 @@ begin
 end;
 
 
-procedure TneSparkle.SetDsaPublicPem(const Value: String);
+procedure TneSparkle.setDSAPublicPem(const Value: String);
 var
   p: Pointer;
   tmpProc: function (pem: PAnsiChar): Integer; cdecl;
@@ -711,10 +711,10 @@ begin
   if Assigned(tmpProc) then res := tmpProc(PAnsiChar(AnsiString(value)));
   if res = 1 then
   begin
-    fDsaPublicPem := Value;
+    fDSAPublicPem := Value;
   end else
   begin
-    fDsaPublicPem := '';
+    fDSAPublicPem := '';
   end;
 end;
 
