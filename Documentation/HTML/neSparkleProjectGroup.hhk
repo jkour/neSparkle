@@ -1,0 +1,481 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+<param name="Window Styles" value="0x800227">
+<param name="ImageType" value="Folder">
+<param name="SiteType" value="index">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="BugVersion">
+ <param name="Local" value="neSparkle.BugVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="MajorVersion">
+ <param name="Local" value="neSparkle.MajorVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="MinorVersion">
+ <param name="Local" value="neSparkle.MinorVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle">
+ <param name="Local" value="neSparkle.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle.TCallbackArray">
+ <param name="Local" value="neSparkle.TCallbackArray.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle.TCallbackArrayFunctions">
+ <param name="Local" value="neSparkle.TCallbackArrayFunctions.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle.TCallbackType">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle.TCallbackTypeFunc">
+ <param name="Local" value="neSparkle.TCallbackTypeFunc.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle.TneSparkle">
+ <param name="Local" value="neSparkle.TneSparkle.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparkle.TUpdateType">
+ <param name="Local" value="neSparkle.TUpdateType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="neSparklePackage">
+ <param name="Local" value="neSparklePackage.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackArray">
+ <param name="Local" value="neSparkle.TCallbackArray.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackArrayFunctions">
+ <param name="Local" value="neSparkle.TCallbackArrayFunctions.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackType">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackType.cbDidFindUpdate">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackType.cbDidNotFindUpdate">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackType.cbError">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackType.cbShutdown">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackType.cbUpdateCancelled">
+ <param name="Local" value="neSparkle.TCallbackType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackTypeFunc">
+ <param name="Local" value="neSparkle.TCallbackTypeFunc.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TCallbackTypeFunc.cbCanShutdown">
+ <param name="Local" value="neSparkle.TCallbackTypeFunc.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle">
+ <param name="Local" value="neSparkle.TneSparkle.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.AppBuildVersion">
+ <param name="Local" value="neSparkle.TneSparkle.AppBuildVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.AppcastURL">
+ <param name="Local" value="neSparkle.TneSparkle.AppcastURL.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.AutoCheckForUpdates">
+ <param name="Local" value="neSparkle.TneSparkle.AutoCheckForUpdates.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.CheckUpdate(TUpdateType)">
+ <param name="Local" value="neSparkle.TneSparkle.CheckUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.CheckUpdateWithoutUI">
+ <param name="Local" value="neSparkle.TneSparkle.CheckUpdateWithoutUI.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.CheckUpdateWithUI">
+ <param name="Local" value="neSparkle.TneSparkle.CheckUpdateWithUI.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.CheckUpdateWithUIandInstall">
+ <param name="Local" value="neSparkle.TneSparkle.CheckUpdateWithUIandInstall.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.Cleanup">
+ <param name="Local" value="neSparkle.TneSparkle.Cleanup.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.Create">
+ <param name="Local" value="neSparkle.TneSparkle.Create.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.Create(string)">
+ <param name="Local" value="neSparkle.TneSparkle.Create(string).htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.Destroy">
+ <param name="Local" value="neSparkle.TneSparkle.Destroy.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.DLLLoaded">
+ <param name="Local" value="neSparkle.TneSparkle.DLLLoaded.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.DLLPath">
+ <param name="Local" value="neSparkle.TneSparkle.DLLPath.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.DSAPublicPem">
+ <param name="Local" value="neSparkle.TneSparkle.DSAPublicPem.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.ExecuteReferencedFunctionBoolean(PWideChar,TCallbackTypeFunc,TFunc)">
+ <param name="Local" value="neSparkle.TneSparkle.ExecuteReferencedFunctionBoolean.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.ExecuteReferencedProcedure(PWideChar,TCallbackType,TProc)">
+ <param name="Local" value="neSparkle.TneSparkle.ExecuteReferencedProcedure.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.ExecuteSimpleProcedure(PWideChar)">
+ <param name="Local" value="neSparkle.TneSparkle.ExecuteSimpleProcedure.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fAppBuildVersion">
+ <param name="Local" value="neSparkle.TneSparkle.fAppBuildVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fAppcastURL">
+ <param name="Local" value="neSparkle.TneSparkle.fAppcastURL.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fAppName">
+ <param name="Local" value="neSparkle.TneSparkle.fAppName.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fAppVersion">
+ <param name="Local" value="neSparkle.TneSparkle.fAppVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fCompanyName">
+ <param name="Local" value="neSparkle.TneSparkle.fCompanyName.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fDLLPath">
+ <param name="Local" value="neSparkle.TneSparkle.fDLLPath.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fDSAPublicPem">
+ <param name="Local" value="neSparkle.TneSparkle.fDSAPublicPem.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fHandle">
+ <param name="Local" value="neSparkle.TneSparkle.fHandle.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fOnCanShutDown">
+ <param name="Local" value="neSparkle.TneSparkle.fOnCanShutDown.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fOnDidFindUpdate">
+ <param name="Local" value="neSparkle.TneSparkle.fOnDidFindUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fOnDidNotFindUpdate">
+ <param name="Local" value="neSparkle.TneSparkle.fOnDidNotFindUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fOnError">
+ <param name="Local" value="neSparkle.TneSparkle.fOnError.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fOnShutDown">
+ <param name="Local" value="neSparkle.TneSparkle.fOnShutDown.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fOnUpdateCancelled">
+ <param name="Local" value="neSparkle.TneSparkle.fOnUpdateCancelled.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.fRegistryPath">
+ <param name="Local" value="neSparkle.TneSparkle.fRegistryPath.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.GetAppBuildVersion">
+ <param name="Local" value="neSparkle.TneSparkle.GetAppBuildVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.GetAppcastURL">
+ <param name="Local" value="neSparkle.TneSparkle.GetAppcastURL.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.GetAutoCheckForUpdates">
+ <param name="Local" value="neSparkle.TneSparkle.GetAutoCheckForUpdates.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.getDLLLoaded">
+ <param name="Local" value="neSparkle.TneSparkle.getDLLLoaded.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.GetLastCheckTime">
+ <param name="Local" value="neSparkle.TneSparkle.GetLastCheckTime.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.GetRegistryPath">
+ <param name="Local" value="neSparkle.TneSparkle.GetRegistryPath.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.GetUpdateCheckInterval">
+ <param name="Local" value="neSparkle.TneSparkle.GetUpdateCheckInterval.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.Init">
+ <param name="Local" value="neSparkle.TneSparkle.Init.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.LastCheckTime">
+ <param name="Local" value="neSparkle.TneSparkle.LastCheckTime.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.OnCanShutDown">
+ <param name="Local" value="neSparkle.TneSparkle.OnCanShutDown.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.OnDidFindUpdate">
+ <param name="Local" value="neSparkle.TneSparkle.OnDidFindUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.OnDidNotFindUpdate">
+ <param name="Local" value="neSparkle.TneSparkle.OnDidNotFindUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.OnError">
+ <param name="Local" value="neSparkle.TneSparkle.OnError.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.OnShutDown">
+ <param name="Local" value="neSparkle.TneSparkle.OnShutDown.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.OnUpdateCancelled">
+ <param name="Local" value="neSparkle.TneSparkle.OnUpdateCancelled.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.RegistryPath">
+ <param name="Local" value="neSparkle.TneSparkle.RegistryPath.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.ResetUpdateCheckInterval">
+ <param name="Local" value="neSparkle.TneSparkle.ResetUpdateCheckInterval.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetAppBuildVersion(string)">
+ <param name="Local" value="neSparkle.TneSparkle.SetAppBuildVersion.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetAppcastURL(string)">
+ <param name="Local" value="neSparkle.TneSparkle.SetAppcastURL.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetAppDetails(string,string,string)">
+ <param name="Local" value="neSparkle.TneSparkle.SetAppDetails.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetAutoCheckForUpdates(Boolean)">
+ <param name="Local" value="neSparkle.TneSparkle.SetAutoCheckForUpdates.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.setDSAPublicPem(String)">
+ <param name="Local" value="neSparkle.TneSparkle.setDSAPublicPem.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetLang(string)">
+ <param name="Local" value="neSparkle.TneSparkle.SetLang.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetLangID(ShortInt)">
+ <param name="Local" value="neSparkle.TneSparkle.SetLangID.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetOnCanShutDown(TFunc)">
+ <param name="Local" value="neSparkle.TneSparkle.SetOnCanShutDown.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetOnDidFindUpdate(TProc)">
+ <param name="Local" value="neSparkle.TneSparkle.SetOnDidFindUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetOnDidNotFindUpdate(TProc)">
+ <param name="Local" value="neSparkle.TneSparkle.SetOnDidNotFindUpdate.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetOnError(TProc)">
+ <param name="Local" value="neSparkle.TneSparkle.SetOnError.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetOnShutDown(TProc)">
+ <param name="Local" value="neSparkle.TneSparkle.SetOnShutDown.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetOnUpdateCancelled(TProc)">
+ <param name="Local" value="neSparkle.TneSparkle.SetOnUpdateCancelled.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetRegistryPath(string)">
+ <param name="Local" value="neSparkle.TneSparkle.SetRegistryPath.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.SetUpdateCheckInterval(Integer)">
+ <param name="Local" value="neSparkle.TneSparkle.SetUpdateCheckInterval.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TneSparkle.UpdateCheckInterval">
+ <param name="Local" value="neSparkle.TneSparkle.UpdateCheckInterval.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TUpdateType">
+ <param name="Local" value="neSparkle.TUpdateType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TUpdateType.utWithoutUI">
+ <param name="Local" value="neSparkle.TUpdateType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TUpdateType.utWithUI">
+ <param name="Local" value="neSparkle.TUpdateType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="TUpdateType.utWithUIAndInstall">
+ <param name="Local" value="neSparkle.TUpdateType.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="WinSparkleLib">
+ <param name="Local" value="neSparkle.WinSparkleLib.htm">
+</OBJECT>
+
+<LI><OBJECT type="text/sitemap">
+ <param name="Name" value="WinSparkleVersion">
+ <param name="Local" value="neSparkle.WinSparkleVersion.htm">
+</OBJECT>
+
+  </UL>
+</BODY>
+</HTML>
