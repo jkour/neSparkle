@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+    <title>Example Demo App updates - Local</title>
+    <link>../../appcast.xml</link>
+    <description>Local Appcast for Demo Delphi App updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.5.4</title>
+      <sparkle:releaseNotesLink>http://localhost:7777/relnotes.html</sparkle:releaseNotesLink>
+      <pubDate>Tue, 25 Sep 2020 18:11:12 +0200</pubDate>
+      <enclosure url="http://localhost:7777/neSparkle-test-app.exe"
+                 sparkle:version="1.10.10"
+                 sparkle:dsaSignature="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+                 type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>

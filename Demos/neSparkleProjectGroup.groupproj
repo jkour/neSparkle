@@ -9,6 +9,9 @@
         <Projects Include="..\SourceCode\Package\neSparklePackage.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="SimpleHTTPServer\SimpleHTTPServer.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -35,14 +38,23 @@
     <Target Name="neSparklePackage:Make">
         <MSBuild Projects="..\SourceCode\Package\neSparklePackage.dproj" Targets="Make"/>
     </Target>
+    <Target Name="SimpleHTTPServer">
+        <MSBuild Projects="SimpleHTTPServer\SimpleHTTPServer.dproj"/>
+    </Target>
+    <Target Name="SimpleHTTPServer:Clean">
+        <MSBuild Projects="SimpleHTTPServer\SimpleHTTPServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SimpleHTTPServer:Make">
+        <MSBuild Projects="SimpleHTTPServer\SimpleHTTPServer.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DelphiSparkleExample;neSparklePackage"/>
+        <CallTarget Targets="DelphiSparkleExample;neSparklePackage;SimpleHTTPServer"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DelphiSparkleExample:Clean;neSparklePackage:Clean"/>
+        <CallTarget Targets="DelphiSparkleExample:Clean;neSparklePackage:Clean;SimpleHTTPServer:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DelphiSparkleExample:Make;neSparklePackage:Make"/>
+        <CallTarget Targets="DelphiSparkleExample:Make;neSparklePackage:Make;SimpleHTTPServer:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
