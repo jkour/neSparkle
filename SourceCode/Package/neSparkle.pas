@@ -68,13 +68,20 @@ const
   WinSparkleVersion = '0.7.0';
 
   MajorVersion = '1';
-  MinorVersion = '2';
+  MinorVersion = '3';
   BugVersion = '0';
 
 //***************************************************************
 //
 // Version History
 //
+//
+// 1.3.0 - 26/09/2020
+//
+// ** Improvement
+//
+//    * WinSparkle version: 0.7.0
+//    * Update Demo to use DSA signature
 //
 // 1.2.0 - 03/02/2018
 //
