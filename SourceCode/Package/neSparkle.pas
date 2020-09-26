@@ -65,7 +65,7 @@ uses
 
 const
   WinSparkleLib = 'WinSparkle.dll';
-  WinSparkleVersion = '0.6.0';
+  WinSparkleVersion = '0.7.0';
 
   MajorVersion = '1';
   MinorVersion = '2';
